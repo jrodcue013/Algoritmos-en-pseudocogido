@@ -1,0 +1,9 @@
+Inicio
+    Escribe "Introduzca numero (1-10):"
+    Lee numero
+
+    Mientras (numero > 10 or numero < 1) entonces
+        Escribe "Intentalo otra vez:
+        Lee numero
+    Escribe "correcto"
+Fin

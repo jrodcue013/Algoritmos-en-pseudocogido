@@ -1,0 +1,13 @@
+Inicio
+    Escribe "Introduce numero:"
+    Lee num1
+    Escribe "Introduce numero2:"
+    Lee num2
+    cadena=""
+    Para i en (num1, num2) hacer
+        cadena = cadena + i + ","
+        Si i!= num2 entonces
+            cadena = cadena + " "
+        
+    Escribe cadena
+Fin 

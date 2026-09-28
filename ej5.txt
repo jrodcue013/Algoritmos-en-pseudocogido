@@ -1,0 +1,19 @@
+Inicio
+    numSecreto = Aleatorio(1,100)
+    Leer numero
+
+    Mientras numero <> numSecreto
+        Si numero < numSecreto Entonces
+            Escribir "El número secreto es mayor"
+        SiNo
+            Escribir "El número secreto es menor"
+        FinSi
+
+        Leer numero
+    FinMientras
+
+    Escribir "¡Correcto!"
+Fin
+
+
+

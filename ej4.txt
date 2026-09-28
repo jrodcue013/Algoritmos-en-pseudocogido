@@ -1,0 +1,11 @@
+Inicio
+    Leer numero
+    suma = 0
+
+    Mientras numero <> 0
+        suma = suma + numero
+        Leer numero
+    FinMientras
+
+    Escribir suma
+Fin

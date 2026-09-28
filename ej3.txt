@@ -1,0 +1,15 @@
+Inicio
+    Leer num1
+    Leer num2
+    Leer num3
+
+    Mientras num1 = num2 O num1 = num3 O num2 = num3
+        Escribir "Los números deben ser distintos"
+        Leer num1
+        Leer num2
+        Leer num3
+    FinMientras
+
+    Escribir "Mostrar números en orden ascendente"
+Fin
+
